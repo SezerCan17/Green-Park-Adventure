@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private bool eldevar;
+    public Image image;
+    private void Awake()
     {
-        
+        eldevar = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Elde_var()
     {
-        
+
     }
+
+    
 }
