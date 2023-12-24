@@ -7,6 +7,10 @@ TagManager:
   - Plastic
   - metal
   - kagit
+  - PlasticBin
+  - MetalBin
+  - PaperBin
+  - OrganicBin
   layers:
   - Default
   - TransparentFX
