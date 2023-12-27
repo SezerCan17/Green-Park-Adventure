@@ -139,18 +139,546 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Garbage recycle bins set_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e86b78745f6eb04d8bdca8b7ec916e2
+      internalID: 440648276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_1
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3ef96a7ac43bf45a1dd87a46bea58e
+      internalID: 1684121337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_2
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a600551d4567b70489d38a59e2d897a1
+      internalID: -824870976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_3
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bbdb0abb68da647b250caedf5de7a7
+      internalID: 1153470771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_4
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a93f71deb53a4429b72e8ae29403be
+      internalID: 427144913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_5
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844d81b203fffb4468818f83cc9a4a29
+      internalID: -1403643158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_6
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c42ea1d2641e4478b8d015d333b0ed
+      internalID: -1981258636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_7
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 2604
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f651b32e4e8a88941bde197f7c57252a
+      internalID: -232538907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09bc26f62e1cd34ea1d5d63962dc7b1
+      internalID: 665870378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_9
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104a76ecd0294d34f8340102d9d977ec
+      internalID: -1459794722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_10
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cf197f7b7a9134cabcd495fecae6fd
+      internalID: 512652998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_11
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7420ee52ff4a8ef4bb03fc731d08213d
+      internalID: -437841614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_12
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b565e78402ef6044daea43f27d824eab
+      internalID: 2011427409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_13
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3120e81ef5b96b340ab739ba07dec026
+      internalID: -2088502024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_14
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8564a07092a5ed447ade6001c0f6f710
+      internalID: 1106711294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_15
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 1730
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9649354c3c1144e9546bb9a970b0cd
+      internalID: 1254481838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f97415fcb9bb934b8093a066df6cb71
+      internalID: 1758636448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963a98b673b3912428d63e6ea90fa471
+      internalID: 1405767938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_18
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5b95af775c16b4ba6f4fa1fc81103e
+      internalID: -1145816154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_19
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb05b85f3324db6498dc46ac63929029
+      internalID: 2110918798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_20
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966dd32f0b55b1d42b76f0422771fb06
+      internalID: -2127165435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_21
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bc1cd0247e69247b6d647e139e7c7d
+      internalID: 1039455842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_22
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4c541701766ed4f947496cff193798
+      internalID: -1394597502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage recycle bins set_23
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 856
+        width: 896
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3bd52b008e325459a8f893907ad7a7
+      internalID: 1809144517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a3734e506ea370b4e96db6ca144ac29b
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garbage recycle bins set_0: 440648276
+      Garbage recycle bins set_1: 1684121337
+      Garbage recycle bins set_10: 512652998
+      Garbage recycle bins set_11: -437841614
+      Garbage recycle bins set_12: 2011427409
+      Garbage recycle bins set_13: -2088502024
+      Garbage recycle bins set_14: 1106711294
+      Garbage recycle bins set_15: 1254481838
+      Garbage recycle bins set_16: 1758636448
+      Garbage recycle bins set_17: 1405767938
+      Garbage recycle bins set_18: -1145816154
+      Garbage recycle bins set_19: 2110918798
+      Garbage recycle bins set_2: -824870976
+      Garbage recycle bins set_20: -2127165435
+      Garbage recycle bins set_21: 1039455842
+      Garbage recycle bins set_22: -1394597502
+      Garbage recycle bins set_23: 1809144517
+      Garbage recycle bins set_3: 1153470771
+      Garbage recycle bins set_4: 427144913
+      Garbage recycle bins set_5: -1403643158
+      Garbage recycle bins set_6: -1981258636
+      Garbage recycle bins set_7: -232538907
+      Garbage recycle bins set_8: 665870378
+      Garbage recycle bins set_9: -1459794722
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
