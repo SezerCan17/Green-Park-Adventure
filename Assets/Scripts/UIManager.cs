@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    public AudioSource audioSource;
     private bool eldevar;
     public GameObject image;
     public GameObject image2;
@@ -63,6 +64,7 @@ public class UIManager : MonoBehaviour
             plastic_yesil.SetActive(true);
             plastic_yesil2.SetActive(true);
             plastic_yesil3.SetActive(true);
+            //audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool=false;
         }
@@ -84,6 +86,7 @@ public class UIManager : MonoBehaviour
             metal_sarý.SetActive(true);
             metal_sarý2.SetActive(true);
             metal_sarý3.SetActive(true);
+            //audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool2=false;
         }
@@ -105,6 +108,7 @@ public class UIManager : MonoBehaviour
             kagit_mavi.SetActive(true);
             kagit_mavi2.SetActive(true);
             kagit_mavi3.SetActive(true);
+            //audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool3=false;
         }
@@ -126,6 +130,7 @@ public class UIManager : MonoBehaviour
             organic_kýrmýzý.SetActive(true);
             organic_kýrmýzý2.SetActive(true);
             organic_kýrmýzý3.SetActive(true);
+            //audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool4 = false;
         }
