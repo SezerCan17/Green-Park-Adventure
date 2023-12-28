@@ -67,6 +67,20 @@ public class Temas : MonoBehaviour
             Debug.Log("icerde");
             icerde = true;
         }
+
+        if (other.gameObject.tag == "organic")
+        {
+            temasEdilenObj = other.gameObject;
+            Debug.Log("icerde");
+            icerde = true;
+
+        }
+        if (other.gameObject.tag == "OrganicBin")
+        {
+            temasEdilenObj = other.gameObject;
+            Debug.Log("icerde");
+            icerde = true;
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -98,6 +112,17 @@ public class Temas : MonoBehaviour
 
         }
         if (other.gameObject.tag == "PaperBin")
+        {
+            icerde = false;
+        }
+
+        if (other.gameObject.tag == "organic")
+        {
+            Debug.Log("Dýsarda");
+            icerde = false;
+
+        }
+        if (other.gameObject.tag == "OrganicBin")
         {
             icerde = false;
         }
@@ -142,6 +167,19 @@ public class Temas : MonoBehaviour
                     kagit_yok();
                 }
                 
+            }
+
+            if (temasEdilenObj.tag == "organic")
+            {
+                SilObjeyi4();
+            }
+            if (temasEdilenObj.tag == "OrganicBin")
+            {
+                if (eldevar4)
+                {
+                    organic_yok();
+                }
+
             }
 
         }
@@ -220,6 +258,31 @@ public class Temas : MonoBehaviour
     {
         uiManager.kagit_var2();
         eldevar3 = false;
+        eldevarGenel = false;
+    }
+
+    void SilObjeyi4()
+    {
+        if (!eldevar3 && !eldevarGenel)
+        {
+            organic_var();
+            temasEdilenObj.SetActive(false);
+            animator.SetTrigger("collect");
+        }
+
+    }
+
+    public void organic_var()
+    {
+        uiManager.organic_var();
+        eldevar4 = true;
+        eldevarGenel = true;
+    }
+
+    public void organic_yok()
+    {
+        uiManager.organic_var2();
+        eldevar4 = false;
         eldevarGenel = false;
     }
 }

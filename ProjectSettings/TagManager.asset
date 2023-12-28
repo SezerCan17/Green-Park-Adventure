@@ -11,6 +11,7 @@ TagManager:
   - MetalBin
   - PaperBin
   - OrganicBin
+  - organic
   layers:
   - Default
   - TransparentFX

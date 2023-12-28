@@ -10,9 +10,20 @@ public class UIManager : MonoBehaviour
     public GameObject image;
     public GameObject image2;
     public GameObject image3;
+    public GameObject image4;
     public GameObject plastic_yesil;
+    public GameObject plastic_yesil2;
+    public GameObject plastic_yesil3;
     public GameObject metal_sarý;
+    public GameObject metal_sarý2;
+    public GameObject metal_sarý3;
     public GameObject kagit_mavi;
+    public GameObject kagit_mavi2;
+    public GameObject kagit_mavi3;
+    public GameObject organic_kýrmýzý;
+    public GameObject organic_kýrmýzý2;
+    public GameObject organic_kýrmýzý3;
+    
 
     public bool image_bool;
     public bool image_bool2;
@@ -39,6 +50,8 @@ public class UIManager : MonoBehaviour
         {
             image.SetActive(false);
             plastic_yesil.SetActive(true);
+            plastic_yesil2.SetActive(true);
+            plastic_yesil3.SetActive(true);
             StartCoroutine(MyEnumerator());
             image_bool=false;
         }
@@ -58,6 +71,8 @@ public class UIManager : MonoBehaviour
         {
             image2.SetActive(false);
             metal_sarý.SetActive(true);
+            metal_sarý2.SetActive(true);
+            metal_sarý3.SetActive(true);
             StartCoroutine(MyEnumerator());
             image_bool2=false;
         }
@@ -77,10 +92,33 @@ public class UIManager : MonoBehaviour
         {
             image3.SetActive(false);
             kagit_mavi.SetActive(true);
+            kagit_mavi2.SetActive(true);
+            kagit_mavi3.SetActive(true);
             StartCoroutine(MyEnumerator());
             image_bool3=false;
         }
         
+
+    }
+
+    public void organic_var()
+    {
+        image4.SetActive(true);
+        image_bool4 = true;
+    }
+
+    public void organic_var2()
+    {
+        if (image_bool4)
+        {
+            image4.SetActive(false);
+            organic_kýrmýzý.SetActive(true);
+            organic_kýrmýzý2.SetActive(true);
+            organic_kýrmýzý3.SetActive(true);
+            StartCoroutine(MyEnumerator());
+            image_bool4 = false;
+        }
+
 
     }
 
@@ -93,6 +131,15 @@ public class UIManager : MonoBehaviour
         plastic_yesil.SetActive(false);
         metal_sarý.SetActive(false);
         kagit_mavi.SetActive(false);
+        organic_kýrmýzý.SetActive(false);
+        plastic_yesil2.SetActive(false);
+        metal_sarý2.SetActive(false) ;
+        kagit_mavi2.SetActive(false) ;
+        organic_kýrmýzý2.SetActive(false ) ;
+        plastic_yesil3.SetActive(false);
+        metal_sarý3.SetActive(false);
+        kagit_mavi3.SetActive(false);
+        organic_kýrmýzý3.SetActive(false);
     }
 
 
