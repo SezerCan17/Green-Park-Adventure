@@ -8,12 +8,20 @@ public class Temas : MonoBehaviour
     public Animator animator;
     private GameObject temasEdilenObj;
     public UIManager uiManager;
-    private bool eldevar;
+    public bool eldevar;
+    public bool eldevar2;
+    public bool eldevar3;
+    public bool eldevar4;
+    public bool eldevarGenel;
 
     private void Awake()
     {
-        
+        eldevar = false;
         icerde = false;
+        eldevar2 = false;
+        eldevar3 = false;
+        eldevar4 = false;
+        eldevarGenel = false;
     }
    
 
@@ -105,7 +113,11 @@ public class Temas : MonoBehaviour
             }
             if(temasEdilenObj.tag=="PlasticBin")
             {
-                Plastic_yok();
+                if(eldevar)
+                {
+                    Plastic_yok();
+                }
+                
             }
             if (temasEdilenObj.tag == "metal")
             {
@@ -113,7 +125,11 @@ public class Temas : MonoBehaviour
             }
             if (temasEdilenObj.tag == "MetalBin")
             {
-                metal_yok();
+                if (eldevar2)
+                {
+                    metal_yok();
+                }
+                
             }
             if (temasEdilenObj.tag == "kagit")
             {
@@ -121,7 +137,11 @@ public class Temas : MonoBehaviour
             }
             if (temasEdilenObj.tag == "PaperBin")
             {
-                kagit_yok();
+                if (eldevar3)
+                {
+                    kagit_yok();
+                }
+                
             }
 
         }
@@ -129,59 +149,77 @@ public class Temas : MonoBehaviour
 
     void SilObjeyi()
     {
-        Plastic_var();
-        temasEdilenObj.SetActive(false);
-        animator.SetTrigger("collect");
+        if(!eldevar && !eldevarGenel)
+        {
+            Plastic_var();
+            temasEdilenObj.SetActive(false);
+            animator.SetTrigger("collect");
+        }
+        
     }
 
     public void Plastic_var()
     {
         uiManager.plastic_var();
         eldevar = true;
+        eldevarGenel = true;
     }
 
     public void Plastic_yok()
     {
         uiManager.plastic_var2();
         eldevar=false;
+        eldevarGenel=false;
     }
 
 
     void SilObjeyi2()
     {
-        metal_var();
-        temasEdilenObj.SetActive(false);
-        animator.SetTrigger("collect");
+        if(!eldevar2 && !eldevarGenel)
+        {
+            metal_var();
+            temasEdilenObj.SetActive(false);
+            animator.SetTrigger("collect");
+        }
+        
     }
 
     public void metal_var()
     {
         uiManager.metal_var();
-        eldevar = true;
+        eldevar2 = true;
+        eldevarGenel = true;
     }
 
     public void metal_yok()
     {
         uiManager.metal_var2();
-        eldevar = false;
+        eldevar2 = false;
+        eldevarGenel = false;
     }
 
     void SilObjeyi3()
     {
-        kagit_var();
-        temasEdilenObj.SetActive(false);
-        animator.SetTrigger("collect");
+        if(!eldevar3 && !eldevarGenel)
+        {
+            kagit_var();
+            temasEdilenObj.SetActive(false);
+            animator.SetTrigger("collect");
+        }
+        
     }
 
     public void kagit_var()
     {
         uiManager.kagit_var();
-        eldevar = true;
+        eldevar3 = true;
+        eldevarGenel = true;
     }
 
     public void kagit_yok()
     {
         uiManager.kagit_var2();
-        eldevar = false;
+        eldevar3 = false;
+        eldevarGenel = false;
     }
 }
