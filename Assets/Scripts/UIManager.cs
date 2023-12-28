@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -36,6 +37,16 @@ public class UIManager : MonoBehaviour
         image_bool2 = false;
         image_bool3 = false;
         image_bool4 = false;
+    }
+
+    public void StartButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void QuitButton()
+    {
+        Application.Quit();
     }
 
     public void plastic_var()
