@@ -25,6 +25,10 @@ public class UIManager : MonoBehaviour
     public GameObject organic_kýrmýzý;
     public GameObject organic_kýrmýzý2;
     public GameObject organic_kýrmýzý3;
+
+    
+
+    public GameObject panel;
     
 
     public bool image_bool;
@@ -40,9 +44,31 @@ public class UIManager : MonoBehaviour
         image_bool4 = false;
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            panel.SetActive(true);
+            Time.timeScale = 0f;
+        }
+    }
+
     public void StartButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1f;
+    }
+
+    public void ResumeButton()
+    {
+        panel.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void ExitButton()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void QuitButton()
@@ -64,7 +90,7 @@ public class UIManager : MonoBehaviour
             plastic_yesil.SetActive(true);
             plastic_yesil2.SetActive(true);
             plastic_yesil3.SetActive(true);
-            //audioSource.Play();
+            audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool=false;
         }
@@ -86,7 +112,7 @@ public class UIManager : MonoBehaviour
             metal_sarý.SetActive(true);
             metal_sarý2.SetActive(true);
             metal_sarý3.SetActive(true);
-            //audioSource.Play();
+            audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool2=false;
         }
@@ -108,7 +134,7 @@ public class UIManager : MonoBehaviour
             kagit_mavi.SetActive(true);
             kagit_mavi2.SetActive(true);
             kagit_mavi3.SetActive(true);
-            //audioSource.Play();
+            audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool3=false;
         }
@@ -130,7 +156,7 @@ public class UIManager : MonoBehaviour
             organic_kýrmýzý.SetActive(true);
             organic_kýrmýzý2.SetActive(true);
             organic_kýrmýzý3.SetActive(true);
-            //audioSource.Play();
+            audioSource.Play();
             StartCoroutine(MyEnumerator());
             image_bool4 = false;
         }
@@ -141,9 +167,10 @@ public class UIManager : MonoBehaviour
     IEnumerator MyEnumerator()
     {
         Debug.Log("Enumerator baþladý.");
-
+        
         yield return new WaitForSeconds(4f); 
         Debug.Log("2 saniye bekledik.");
+        
         plastic_yesil.SetActive(false);
         metal_sarý.SetActive(false);
         kagit_mavi.SetActive(false);
